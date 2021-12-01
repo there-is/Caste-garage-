@@ -1,0 +1,1146 @@
+/* Proyecto Caste garage */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* style*/
+
+$color-am: #f6cc34;
+
+$font-mon:'Montserrat', sans-serif;
+
+$font-AB:'Abril Fatface', cursive;
+
+
+/*    INDEX    */
+.body-index{
+    display: grid; 
+    grid-template-areas:
+    "nav1 nav1 nav1"
+    "HedInx HedInx HedInx"
+    "txtInx txtInx txtInx"
+    "fotI fotI fotI" ;
+
+}
+
+
+.header-index{
+    grid-area: HedInx ;
+}
+
+
+.nav-1{
+    grid-area: nav1;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+
+.fot-indx{
+    grid-area: fotI;
+}
+
+
+.nav-1{
+    background-color: #1f1d1f;
+}
+
+
+.nav-1 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family:$font-AB;
+}
+
+
+/* Hovers nav */
+
+.inicioNav {
+    color: #fff;
+    }
+.inicioNav:hover {
+    color: $color-am;
+}
+
+
+.productosNav {
+    color: #fff;
+    }
+.productosNav:hover {
+    color: $color-am;
+}
+
+
+.ubicacionNav {
+    color: #fff;
+    }
+.ubicacionNav:hover {
+    color: $color-am;
+}
+
+
+.galeriaNav {
+    color: #fff;
+    }
+.galeriaNav:hover {
+    color: $color-am;
+}
+
+
+.contactoNav {
+    color: #fff;
+    }
+.contactoNav:hover {
+    color: $color-am;
+}
+
+/* Header */
+
+.header-index{
+    height: 530px;
+    background:url(../media/IMG-index.JPG);
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+
+.header-index h1{
+    margin-left: 445px;
+    margin-top: 170px;
+} 
+
+/* texto */
+
+.txt-indx{
+    background-color: #1f1d1f;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 100px;
+
+}
+
+
+.txt-indx h2{
+    color: $color-am;
+    text-align: center;
+    font-size: 30PX;
+    font-family:$font-AB;
+    padding-bottom: 50px;
+    border-bottom:3px solid #2c2a2a
+}
+
+
+.txt-indx h1{
+    color: white;
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 80px;
+    font-family: $font-mon;
+    padding-bottom: 140px;
+    padding-left: 70px;
+}
+
+/* footer */
+
+.fot-indx{
+    background-color: #2c2a2a;
+    height: 170px;
+}
+
+
+.fot-indx h2{
+    color: white;
+    text-align: center;
+    font-family: $font-mon;
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+
+.fot-indx h3{
+    margin-left: 503px;
+}
+
+
+.fot-indx a{
+    margin-left: 38px;
+}
+
+
+/* Iconos de contacto */
+
+
+/* Icono whatsapp */
+.img-whatsApp{
+    height: 35px;
+    width: 35px;
+} 
+.img-whatsApp{ 
+    transition:.5s; 
+}
+.img-whatsApp:hover {
+transform:scale(1.5); 
+}
+
+
+/* Icono instagram */
+.img-insta{
+    height: 35px;
+    width: 35px;
+}
+.img-insta{ 
+    transition:.5s; 
+}
+.img-insta:hover {
+transform:scale(1.5); 
+}
+
+
+/* Icono google */
+.img-google{
+    height: 35px;
+    width: 35px;
+}
+.img-google{ 
+    transition:.5s; 
+}
+.img-google:hover {
+transform:scale(1.5); 
+}
+
+
+
+/* Media */
+ @media only screen and (max-width: 425px)
+  {
+    #grilla {
+            grid-template-columns: repeat(3);
+      } 
+    .header-index h1 img {
+        margin-left: -280px;
+    }
+    .nav-1{
+       margin-right: -2px; 
+    }
+    .txt-indx{
+        margin-left: -65px ;
+} 
+
+    .txt-indx h2{
+        margin-left: -135px ;
+    }
+
+    .txt-indx h1{
+        margin-left: -215px;
+        width: 477px;
+    }
+
+
+    .nav-1 a{
+        font-size: 15px;
+        padding-right: 10px;
+        
+    }
+
+    .fot-indx h2{
+        margin-left: -160px;
+    }
+
+
+.fot-indx h3 {
+    margin-left: 232px;
+} 
+    }
+
+
+
+
+
+
+/*    GALERÍA    */
+
+
+
+
+
+.nav-2{
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    grid-template-columns: repeat(3 1fr);
+}
+
+.nav-2{
+    background-color: #1f1d1f;
+}
+
+.nav-2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family:$font-AB;
+}
+
+
+
+
+
+/* Header */
+.header-Galery{
+        height: 530px;
+        background:url(../media/carrot\ 1.png);
+        background-size: cover;
+        background-position: -3px;
+        background-attachment: fixed;
+        grid-template-columns: repeat(3 1fr);
+    }
+
+
+
+.header-Galery{
+    padding-left: 445px;
+    padding-top: 170px;
+}
+
+.img-table{
+background-color: #1f1d1f;
+padding-top: 100px;
+padding-left: 275px;
+padding-right: 275px;
+padding-bottom: 100px;
+margin-right: 150px;
+}
+
+.secIMG-gal img{
+    height: 350px;
+    width: auto;
+    grid-template-columns: repeat(3 1fr);
+    margin: 20px;
+    
+}
+
+
+
+.secIMG-gal{
+    background-color:#1f1d1f ;
+    padding-left: 105px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+/* Media */
+@media only screen and (max-width: 470px)
+{
+    #grilla {
+            grid-template-columns: repeat(3);
+    } 
+
+    .secIMG-gal img{
+        grid-template-columns: repeat(1 1fr);
+        
+    }
+
+
+    .secIMG-gal img{
+        grid-template-columns: repeat(1 1fr);
+        padding:10px;
+    }
+
+    .header-Galery{
+    padding-left:11px;
+    }
+
+    .secIMG-gal img {
+        height: 234px;
+    }
+
+    
+.fot-indx h3 {
+    margin-left: 84px;}
+
+
+    .fot-indx h2 {
+        margin-left: -7px;
+    }
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    UBICACIÓN    */
+
+    .body-ubicacion{
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.8fr 0.9fr 3fr 2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "nav3 nav3 nav3"
+    "Hedub Hedub Hedub"
+    "txtUb txtUb txtUb"
+    ". map ."
+    "fotU fotU fotU";  
+    height: 500px; 
+}
+
+.mapita{
+grid-area: map ;
+}
+
+
+.header-ubicacion{
+    grid-area: HedUb ;
+}
+
+.fot-ubi{
+    grid-area: fotU;
+}
+
+.nav-3{
+    grid-area: nav3;
+
+}
+
+.textUb{
+    grid-area: txtUb;
+}
+
+.nav-3{
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #1f1d1f;
+}
+
+
+.nav-3 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family:$font-AB;
+}
+
+/* Hovers nav */
+
+.inicioNavUb {
+    color: #fff;
+    }
+.inicioNavUb:hover {
+    color: $color-am;
+}
+
+.productosNavUb {
+    color: #fff;
+    }
+.productosNavUb:hover {
+    color:  $color-am;
+}
+
+.ubicacionNavUb {
+    color: #fff;
+    }
+.ubicacionNavUb:hover {
+    color:  $color-am;
+}
+
+.galeriaNavUb {
+    color: #fff;
+    }
+.galeriaNavUb:hover {
+    color:  $color-am;
+}
+
+.contactoNavUb {
+    color: #fff;
+    }
+.contactoNavUb:hover {
+    color:  $color-am;
+}
+
+
+/* Header */
+
+.header-ubicacion{
+    height: 504px;
+    background:url(../media/crumble\ 2\ edit.jpg);
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+.ubicHeadLogo{
+    margin-top: 190px;
+    margin-bottom: 250px;
+
+}
+
+
+.header-ubicacion h1{
+    margin-left: 445px;
+    margin-top: 0px;
+} 
+
+
+
+/* section map */
+
+.mapita{
+    background-color: #1f1d1f;
+    background-size: cover;
+    height: 700px; 
+    width: 100%; 
+    padding-top: 100px;
+    padding-left: 380px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+
+
+/* footer */
+
+.textUb{  
+    background-color:#2c2a2a;  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: $font-mon;
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.fot-ubi{
+    background-color: #2c2a2a;
+    height: 170px;
+}
+
+
+
+.fot-ubi h2{
+    color: white;
+    text-align: center;
+    font-family: $font-mon;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.fot-ubi h3{
+    margin-left: 503px;
+}
+
+
+.fot-ubi a{
+    margin-left: 38px;   
+}
+
+/* Iconos de contacto */
+
+
+/* Icono whatsapp */
+.img-whatsAppUb{
+    height: 35px;
+    width: 35px;
+} 
+.img-whatsAppUb{ 
+    transition:.5s; 
+}
+
+.img-whatsAppUb:hover {
+transform:scale(1.5); 
+}
+
+/* Icono instagram */
+.img-instaUb{
+    height: 35px;
+    width: 35px;
+}
+.img-instaUb{ 
+    transition:.5s; 
+}
+
+.img-instaUb:hover {
+transform:scale(1.5); 
+}
+
+  /* Icono google */
+.img-googleUb{
+    height: 35px;
+    width: 35px;
+}
+
+.img-googleUb{ 
+    transition:.5s; 
+}
+
+.img-googleUb:hover {
+transform:scale(1.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACTO */
+
+.body-contacto{
+    display: grid; 
+    grid-template-areas:
+    "nav4 nav4 nav4"
+    "HedCon HedCon HedCon"
+    "secCo secCo secCo"
+    "fotC fotC fotC" ;
+
+}
+
+.secCon{
+    grid-area: secCo;
+    background-color: #1f1d1f;
+}
+
+
+.header-contacto{
+    grid-area: HedCon ;
+}
+
+
+.nav-4{
+    grid-area: nav4;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #1f1d1f;
+}
+
+
+.fot-con{
+    grid-area: fotC;
+}
+
+
+.nav-4 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family:$font-AB;
+}
+
+/* Header */
+
+.header-contacto{
+    height: 530px;
+    background:url(../media/alfajores2.JPG);
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+
+.header-contacto h1{
+    margin-left: 445px;
+    margin-top: 170px;
+} 
+
+/* Hovers nav */
+
+.inicioCon {
+    color: #fff;
+    }
+.inicioCon:hover {
+    color: $color-am;
+}
+
+
+.productosCon {
+    color: #fff;
+    }
+.productosCon:hover {
+    color:  $color-am;
+}
+
+
+.ubicacionCon {
+    color: #fff;
+    }
+.ubicacionCon:hover {
+    color:  $color-am;
+}
+
+
+.galeriaCon {
+    color: #fff;
+    }
+.galeriaCon:hover {
+    color:  $color-am;
+}
+
+
+.contactoCon {
+    color: #fff;
+    }
+.contactoCon:hover {
+    color:  $color-am;
+}
+
+
+
+/* Box Contacto */
+
+body
+{
+margin:0}
+
+.form
+{width:340px;
+height:440px;
+background:#e6e6e6;
+border-radius:8px;
+box-shadow:0 0 40px -10px #000;
+margin:calc(50vh - 220px) auto;
+padding:20px 30px;
+max-width:calc(100vw - 40px);
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+position:relative
+}
+
+
+
+input
+{width:100%;
+padding:10px;
+box-sizing:border-box;
+background:none;
+outline:none;
+resize:none;
+border:0;
+font-family:'Montserrat',sans-serif;
+transition:all .3s;
+border-bottom:2px solid #2c2a2a
+}
+
+input:focus
+{border-bottom:2px solid #2c2a2a
+}
+
+p:before
+{content:attr(type);
+display:block;
+margin:28px 0 0;
+font-size:14px;
+color:#2c2a2a
+}
+
+button
+{float:right;
+padding:8px 12px;
+margin:8px 0 0;
+font-family:'Montserrat',sans-serif;
+border:2px solid #2c2a2a;
+background:0;
+color:#2c2a2a;
+cursor:pointer;
+transition:all .3s
+}
+
+button:hover
+{background-color:  $color-am;
+color:rgb(0, 0, 0)
+} 
+
+
+
+/* footer */
+
+.fot-con{
+    background-color: #2c2a2a;
+    height: 170px;
+    
+}
+
+
+.fot-con h2{
+    color: white;
+    text-align: center;
+    font-family: $font-mon;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.fot-con h3{
+    margin-left: 503px;
+    
+}
+
+
+.fot-con a{
+    margin-left: 38px;
+}
+
+/* Iconos de contacto */
+
+
+/* Icono whatsapp */
+.img-whatsAppCo{
+    height: 35px;
+    width: 35px;
+} 
+.img-whatsAppCo{ 
+    transition:.5s; 
+}
+.img-whatsAppCo:hover {
+transform:scale(1.5); 
+}
+
+
+/* Icono instagram */
+.img-instaCo{
+    height: 35px;
+    width: 35px;
+}
+.img-instaCo{ 
+    transition:.5s; 
+}
+.img-instaCo:hover {
+transform:scale(1.5); 
+}
+
+
+/* Icono google */
+.img-googleCo{
+    height: 35px;
+    width: 35px;
+}
+.img-googleCo{ 
+    transition:.5s; 
+}
+.img-googleCo:hover {
+transform:scale(1.5); 
+}
+
+/* Media */
+
+@media only screen and (max-width: 470px)
+{
+#grilla {
+        grid-template-columns: repeat(3);
+    } 
+.header-contacto{
+    margin-left: -280px;
+}
+.header-contacto h1{
+margin-left: 297px;
+margin-top: 170px;
+
+}
+.nav-4{
+margin-right: -1px;
+margin-left: -23px;
+padding-right:-16px;
+}
+
+
+.nav-4 a{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.fot-con h3 {
+    margin-left: 104px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*     PRODUCTOS     */
+
+.body-prod{
+    display: grid;
+    grid-template-areas: 
+    "navP navP navP"
+    "hedP hedP hedP"
+    "fot-p1 txtP txtP"
+    "fot-p2 txtP2 txtP2"
+    "fotP fotP fotP"
+    
+    ;
+}
+
+
+.txt-prod{
+    grid-area: txtP;
+    color: white;
+    background-color: #1f1d1f;
+}
+
+
+
+
+.foto-p2{
+    grid-area: fot-p3;
+}
+
+.txt-prod2{
+    grid-area: txtP2;
+}
+
+.foto-p1{
+    grid-area: fot-p2;
+}
+
+.fot-prod{
+    grid-area: fotP;
+}
+
+.fot-prod{
+    background-color: #2c2a2a;
+    height: 170px;
+}
+
+
+.fot-prod h2{
+    color: white;
+    text-align: center;
+    font-family: $font-mon;
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+
+.fot-prod a{
+    margin-left: 38px;
+}
+
+.head-prod{
+    grid-area: hedP;
+}
+
+.nav-prod{
+    grid-area: navP;
+}
+
+.foto-P{
+    grid-area: fot-p1;
+    background-color: #1f1d1f;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.txt-prod{
+    padding-top: 147px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.txt-prod h1{
+    color:  $color-am;
+    padding-bottom: 10px;
+    
+}
+
+.nav-prod{
+    background-color: #1f1d1f;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    
+}
+
+.nav-prod a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 37px;
+    font-family:$font-AB;
+}
+
+.head-prod{
+    height: 530px;
+    background:url(../media/cafe\ y\ torta\ editado.jpg);
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+.prodHeadLogo{
+    margin-left: 445px;
+
+}
+
+.prodHeadLogo img{
+    margin-top: 170px;
+}
+
+
+    
+
+
+
+.foto-P img{
+    margin-left: 40px;
+    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.fot-Prod{
+    background-color: rgb(49, 45, 43);
+}
+
+.fot-prod h3{
+    padding-left: 490px;
+}
+
+.foto-p1 img{ 
+    margin-left: 40px;
+    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+margin-bottom: 30px;
+}
+
+.foto-p1{
+background-color: #1f1d1f;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+
+
+.txt-prod2{
+    color: white;
+    background-color: #1f1d1f;
+}
+
+.txt-prod2{
+    padding-top: 117px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+
+.txt-prod2 h1{
+    color:  $color-am;
+    padding-bottom: 10px;
+}
+
+.foto-p2 img{ 
+    margin-left: 40px;
+    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.foto-p2{
+background-color: #1f1d1f;
+padding-top: 10px;
+padding-bottom: 200px;
+}
+
+/* Media */
+
+@media only screen and (max-width: 470px)
+{
+#grilla {
+        grid-template-columns: repeat(3);
+    } 
+.header-index h1 img {
+    margin-left: -280px;
+}
+.nav-1{
+    margin-right: 140px; 
+}
+.txt-indx{
+    margin-left: -65px ;
+} 
+
+.txt-indx h2{
+    margin-left: -135px ;
+}
+
+.txt-indx h1{
+    margin-left: -215px;
+    width: 477px;
+}
+
+
+.nav-1 a{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.fot-indx h2{
+    margin-left: -160px;
+}
+
+
+.fot-indx h3 {
+    margin-left: 232px;
+}
+
+.prodHeadLogo{
+    margin-left: 153px;
+}
+
+.fot-prod h3  {
+    padding-left: 225px;
+}
+
+
+}
+

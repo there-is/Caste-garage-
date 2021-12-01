@@ -1,0 +1,178 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*variables*/
+llign$text-añ
+.bodyProduct {
+  display: grid;
+  grid-template-areas: "heder heder heder" "nav nav nav" "sec . ." "tabla . ."; }
+
+.prodoHeader {
+  grid-area: heder; }
+
+.BotonProduc1 {
+  grid-area: nav; }
+
+.prodoList {
+  grid-area: sec; }
+
+.tableProduct__tituloH2 {
+  grid-area: tabla; }
+
+.prodoHeader {
+  color: #dda15e;
+  font-family: "Abril Fatface", cursive;
+  background-color: #211f20;
+  text-align: center; }
+
+.prodoHeader__section-product-border {
+  height: 2px;
+  background-color: #fdc938; }
+
+.TitleProd {
+  text-decoration: underline; }
+
+.BotonProduc1__BotonProduc {
+  display: inline;
+  float: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: black; }
+
+.BotonProduc1__BotonProduc:hover {
+  color: blanchedalmond; }
+
+.BotonProduc1 {
+  background-color: #fdc938; }
+
+.prodoList {
+  font-family: "Montserrat", sans-serif;
+  color: #243016;
+  text-align: center; }
+
+.tableProduct {
+  color: #606c38;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-decoration: underline; }
+
+.tableProduct__Tabla {
+  font-family: "Montserrat", sans-serif; }
+
+.tableProduct__tablaTr {
+  text-decoration: none; }
+
+.NewProd {
+  background-color: #fdc938;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px; }
+
+.NewProd__titulo {
+  font-family: "Abril Fatface", cursive; }
+
+.NewProd__H3 {
+  font-family: "Montserrat", sans-serif; }
+
+.ProdCeliac {
+  background-color: #fdc938;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px; }
+
+.ProdCeliac__Titulo {
+  font-family: "Abril Fatface", cursive; }
+
+.ProdCeliac__Texto {
+  font-family: "Montserrat", sans-serif; }
+
+.ProdDiab {
+  background-color: #fdc938;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px; }
+
+.ProdDiab__titulo {
+  font-family: "Abril Fatface", cursive; }
+
+.ProdDiab__texto {
+  font-family: "Montserrat", sans-serif; }
+
+.ProdVeg {
+  background-color: #fdc938;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px; }
+
+.ProdVeg__titulo {
+  font-family: "Abril Fatface", cursive; }
+
+.ProdVeg__texto {
+  font-family: "Montserrat", sans-serif; }
+
+/* envios.html */
+.bodyEnv {
+  display: grid;
+  grid-template-areas: "hederE hederE hederE" "navE navE navE" "map . ." ". tableE1 ."; }
+
+.hederEnv {
+  grid-area: hederE; }
+
+.BotonEnv1 {
+  grid-area: navE; }
+
+.tableEnv {
+  grid-area: tableE1; }
+
+.map-env {
+  grid-area: map; }
+
+.hederEnv {
+  color: #fdc938;
+  font-family: "Abril Fatface", cursive;
+  background-color: #211f20;
+  text-align: center; }
+
+.section-env-border {
+  height: 2px;
+  background-color: #fdc938; }
+
+.titleEnv {
+  text-decoration: underline; }
+
+.BotonEnv {
+  display: inline;
+  float: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #211f20; }
+
+.BotonEnv1 {
+  background-color: #fdc938; }
+
+.BotonEnv1 a:hover {
+  color: blanchedalmond; }
+
+.tableEnv__secth2Envios {
+  font-family: "Montserrat", sans-serif;
+  color: #211f20;
+  text-align: center;
+  text-decoration: underline; }
+
+.tableEnv {
+  font-family: "Montserrat", sans-serif;
+  text-align: center; }
+
+.MetodoEnv__texto {
+  font-family: "Montserrat", sans-serif;
+  color: #fdc938; }
+
+.MetodoEnv__titulo {
+  color: #211f20; }
